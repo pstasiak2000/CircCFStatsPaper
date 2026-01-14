@@ -70,35 +70,34 @@
 % \newcommand{\pd}[3][\null]{\ensuremath{\dfrac{\partial^{#1} #2}{\partial #3^{#1}}}}%Partial derivative
 % \newcommand{\matd}[2][\null]{\ensuremath{\dfrac{\mathrm{D}^{#1} #2}{\mathrm{D} t^{#1}}}} %Material derivative
 
-\def \s{\mathbf{s}}
-\def \v{\mathbf{v}}
-\def \x{\mathbf{x}}
-\def \r{\mathbf{r}}
-\def \k{\mathbf{k}}
-\def \h{\mathbf{h}}
+\def\s{\mathbf{s}}
+\def\v{\mathbf{v}}
+\def\x{\mathbf{x}}
+\def\r{\mathbf{r}}
+\def\k{\mathbf{k}}
+\def\h{\mathbf{h}}
 
-\def \cm{\mathrm{cm}}
-\def \cms{\mathrm{cm/s}}
-\def \sec{\mathrm{s}}
-\def \K{\mathrm{K}}
+\def\cm{\mathrm{cm}}
+\def\cms{\mathrm{cm/s}}
+\def\sec{\mathrm{s}}
+\def\K{\mathrm{K}}
 
 \def\red#1{\textcolor{red}{#1}}
 \def\blue#1{\textcolor{blue}{#1}}
 \def\magenta#1{\textcolor{magenta}{#1}}
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand*{\NOTE}[1]{\textbf{\color{black}[#1]}} %Red
-\newcommand*{\CHANGE}[1]{{\color{black}#1}}    %Magenta
-\newcommand*{\GK}[1]{{\color{black}#1}}           %Blue
-\newcommand*{\DEL}[1]{{\color{black}#1}}         %Green
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand*{\PZS}[1]{\red{#1}} % PZS corrections
+\newcommand*{\LG}[1]{{\blue{#1}}}    % LG corrections
+\newcommand*{\GK}[1]{{\magenta{#1}}}   % GK corrections
 
 
 \begin{document}
 
+
 \preprint{APS/123-QED}
 
-%\title{Inverse energy transfer in finite-temperature superfluid vortex reconnections}
 \title{Velocity circulation statistics in counterflow turbulence}
 
 \author{P. Z. Stasiak}
@@ -114,6 +113,7 @@
              %  but any date may be explicitly specified
 
 \begin{abstract}
+  \blindtext
 \end{abstract}
 
 %\keywords{Suggested keywords}%Use showkeys class option if keyword
@@ -121,12 +121,11 @@
 \maketitle
  
 
+\blindtext[4]
 
 
-
-\begin{acknowledgments}
-\end{acknowledgments}
-
+% \begin{acknowledgments}
+% \end{acknowledgments}
 
 
 
