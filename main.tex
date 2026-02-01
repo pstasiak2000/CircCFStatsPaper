@@ -120,6 +120,25 @@
    %display desired
 \maketitle
  
+\section{Introduction}
+
+\blindtext[2]
+
+\section{Method}
+
+Superfluid dynamics are modelled by employing the recently developed \textsc{FOUCAULT} model \cite{galantucci2020}. 
+We follow Schwarz's approach \cite{schwarz1988}, by exploiting the large separation of scales between the \textsuperscript{4}He vortex core size $a_0$ and the average inter-vortex spacing $\ell$. 
+We parametrize the superfluid vortex lines as 1D space curves $\s(\xi,t)$ with $\xi$ and $t$ the arclength and time respectively. 
+The corresponding equation of motion is
+$$
+\dot{\s}(\xi,t) = \v_{s_{\perp}} + \beta\s'\times(\v_n - \v_s) + \beta'\s'\times\left[\s'\times(\v_n - \v_s)\right]
+$$
+where $\s'=\partial\s/\partial\xi$ is the unit tangent vector at $\s$, $\v_n$ and $\v_s$ are the normal fluid and superfluid velocities at $\s$, and $\beta$, $\beta'$ are temperature and Reynolds number dependent mutual friction coefficients. The superfluid velocity $\v_s$ is computed via a de-singularized Biot-Savart integral, accelerated using the tree algorithm \cite{baggaley2012d} (see Supplementary Materials). 
+
+
+\section{Results}
+
+
 \begin{figure*}
   \centering
   \includegraphics[width=0.99\textwidth]{snapshots.pdf}
@@ -166,6 +185,7 @@
 
 
 
+\bibliography{references}
 
 % \begin{acknowledgments}
 % \end{acknowledgments}
