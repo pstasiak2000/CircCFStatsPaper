@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{3}%
+\begin{thebibliography}{5}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -54,8 +54,14 @@
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Galantucci}}, \bibinfo {author} {\bibfnamefont {A.~W.}\ \bibnamefont {Baggaley}}, \bibinfo {author} {\bibfnamefont {C.~F.}\ \bibnamefont {Barenghi}},\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Krstulovic}},\ }\bibfield  {title} {\bibinfo {title} {A new self-consistent approach of quantum turbulence in superfluid helium},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Eur. Phys. J. Plus}\ }\textbf {\bibinfo {volume} {135}},\ \bibinfo {pages} {547} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Schwarz}(1988)}]{schwarz1988}%
   \BibitemOpen
-  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {{\relax KW}.}~\bibnamefont {Schwarz}},\ }\bibfield  {title} {\bibinfo {title} {Three-dimensional vortex dynamics in superfluid {{\ensuremath{{}^4\mathrm{He}}}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {38}},\ \bibinfo {pages} {2398} (\bibinfo {year} {1988})}\BibitemShut {NoStop}%
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {{\relax KW}.}~\bibnamefont {Schwarz}},\ }\bibfield  {title} {\bibinfo {title} {Three-dimensional vortex dynamics in superfluid {{4He}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {38}},\ \bibinfo {pages} {2398} (\bibinfo {year} {1988})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {Baggaley}\ and\ \citenamefont {Barenghi}(2012)}]{baggaley2012d}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~W.}\ \bibnamefont {Baggaley}}\ and\ \bibinfo {author} {\bibfnamefont {C.~F.}\ \bibnamefont {Barenghi}},\ }\bibfield  {title} {\bibinfo {title} {Tree {{Method}} for {{Quantum Vortex Dynamics}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {J. Low Temp. Phys.}\ }\textbf {\bibinfo {volume} {166}},\ \bibinfo {pages} {3} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {M{\"u}ller}\ \emph {et~al.}(2021)\citenamefont {M{\"u}ller}, \citenamefont {Polanco},\ and\ \citenamefont {Krstulovic}}]{muller2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~P.}\ \bibnamefont {M{\"u}ller}}, \bibinfo {author} {\bibfnamefont {J.~I.}\ \bibnamefont {Polanco}},\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Krstulovic}},\ }\bibfield  {title} {\bibinfo {title} {Intermittency of {{Velocity Circulation}} in {{Quantum Turbulence}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. X}\ }\textbf {\bibinfo {volume} {11}},\ \bibinfo {pages} {011053} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Iyer}\ \emph {et~al.}(2019)\citenamefont {Iyer}, \citenamefont {Sreenivasan},\ and\ \citenamefont {Yeung}}]{iyer2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.~P.}\ \bibnamefont {Iyer}}, \bibinfo {author} {\bibfnamefont {K.~R.}\ \bibnamefont {Sreenivasan}},\ and\ \bibinfo {author} {\bibfnamefont {P.~K.}\ \bibnamefont {Yeung}},\ }\bibfield  {title} {\bibinfo {title} {Circulation in {{High Reynolds Number Isotropic Turbulence}} is a {{Bifractal}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. X}\ }\textbf {\bibinfo {volume} {9}},\ \bibinfo {pages} {041006} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
 \end{thebibliography}%
