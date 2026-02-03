@@ -167,39 +167,57 @@ We observe that in this regime the scaling not only follows the GP theory, but t
 Similarily, the normal fluid also exhibits the well known viscous scaling of $\langle|\Gamma|^2|\rangle\sim r^4$ for small loop sizes $r$ , as a result of smoothness at very small scales \cite{iyer2019}. 
 
 The cross-over from the quantum $r\ll\ell$ to the classical $r\gtrsim\ell$ marks a stark contrast in the superfluid circulation variance scaling. 
-While the TG scales in accordance with a partial polarization of vortices where $r^{8/3}$ \cite{lvov2007}, the CF scaling, appears to follow a scaling of $\sim r^{1.58}$, a weaker scaling than for a fully random tangle of vortex lines which exhibits $\sim r^{2}$ scaling in the classical range. 
-Remarkably both components of the SF and NF statistics of CF appear to adhere to this scaling law for loops $r\gtrsim\ell$.  
+While the TG scales in accordance with a partial polarization of vortices where $r^{8/3}$ \cite{lvov2007}, the CF scaling, appears to follow a scaling of $\sim r^{1.58}$, a weaker scaling than for a fully random tangle of vortex lines which exhibits $r^{2}$ scaling in the classical range. 
+Remarkably both components of the SF and NF statistics of CF appear to adhere to this scaling law for loops $r\gtrsim\ell$. 
+For the remainder of this paper, we will only focus on the classical range where the loop sizes $r>\ell$.
 
 \begin{figure}
   \centering
   \includegraphics[width=0.49\textwidth]{PDFs.pdf}
-  \caption{PDFs of the velocity circulation for different loop sizes $r/\ell > 1$, scaled by the standard deviation $\sigma_{\Gamma}$. (\emph{a}) shows the Taylor-Green simulation, while \emph{(b)} shows both of the normal fluid parallel (diamonds) and perpendicular (circles) components. The inset of (\emph{a}) shows the flatness $\mathcal{K}(\Gamma) = \langle|\Gamma|^4\rangle / \sigma_{\Gamma}^4$, with the same color scheme as in Fig.~\ref{fig:variance}. The black dashed line marks the Gaussian flatness of $\mathcal{K}=3$. }
+  \caption{PDFs of the velocity circulation for different loop sizes $r/\ell > 1$, scaled by the standard deviation $\sigma_{\Gamma}$. (\emph{a}) shows the Taylor-Green simulation, while \emph{(b)} shows both of the normal fluid parallel (diamonds) and perpendicular (circles) components. The inset of (\emph{a}) shows the flatness $\mathcal{K}(\Gamma) = \langle|\Gamma|^4\rangle / \sigma_{\Gamma}^4$, with the same color scheme as in Fig.~\ref{fig:variance}. The black dashed line marks the Gaussian flatness of $\mathcal{K}=3$. See the Supplementary materials for the SF PDFs.}
   \label{fig:PDF}
 \end{figure}
 
-For the remainder of this paper, we will only focus on the classical range where the loop sizes $r>\ell$. 
+ 
 In fully-developed isotropic classical turbulence, velocity circulation statistics adhere to a strictly non-Gaussian distribution with long tails \cite{wilczek2009}.
-Deviations from Gaussian statistics are the hallmark of intermittency, and represent a deviation from self-similar statistics which are evident in the TG simulations shown in Fig.~\ref{fig:PDF}a.    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Deviations from Gaussian statistics are the hallmark of intermittency, and represent a deviation from self-similar scaling which are evident in the TG simulations shown in Fig.~\ref{fig:PDF}a.    
+The circulation PDF of the NF components differs very strongly (see Fig.~\ref{fig:PDF}b).
+Strikingly, we see a complete collapse to Gaussian statistics for the perpendicular components, while the parallel component exhibits very small deviations.
+We show this collapse by computing the flatness $\mathcal{K}(\Gamma) = \langle|\Gamma|^4\rangle / \sigma_{\Gamma}^4$, where $\sigma_{\Gamma}$ is the standard deviation $\sqrt{\langle|\Gamma|^2\rangle}$.
+The flatness is displayed in the inset of Fig.~\ref{fig:PDF}a.
+In the classical regime the NF components monotonically decay to the Gaussian value of $\mathcal{K} = 3$, while the non-Gaussian TG simulation deviates in the same region. Indeed we observe that the presence of quantized vortices suppresses the intermittent behaviour of the classically-driven NF.  
 
 \begin{figure}
   \centering
   \includegraphics[width=0.49\textwidth]{moments.pdf}
-  \caption{Circulation moments $\langle|\Gamma|^p\rangle$ in extended self-similarity (ESS) using $p=3$. (\emph{a}) shows the Taylor-Green simulation, while the left and right panels of (\emph{b}) are the normal fluid perpendicular and parallel component respectively. The insets of each plot give the local slope, where $\lambda_p/\lambda_3 = d\log\langle|\Gamma|^p\rangle/d\log\langle|\Gamma|^3\rangle$ and the horizontal lines correspond to the K41 scalings $\lambda_p^{K41} = 4p/3$. The shaded regions indicate the classical region where the data used to estimate the exponents.}
+  \caption{Circulation moments $\langle|\Gamma|^p\rangle$ in extended self-similarity (ESS) using $p=3$. (\emph{a}) shows the Taylor-Green simulation, while the left and right panels of (\emph{b}) are the normal fluid perpendicular and parallel component respectively. The insets of each plot give the local slope, where $\lambda_p/\lambda_3 = \mathrm{d}\left[\log\langle|\Gamma|^p\rangle\right]/\mathrm{d}\left[\log\langle|\Gamma|^3\rangle\right]$ and the horizontal lines correspond to the K41 scalings $\lambda_p^{K41} = 4p/3$. The shaded regions indicate the classical region where the data used to estimate the exponents.}
+  \label{fig:moments}
 \end{figure}
+
+
+As is customary in the classical turbulence, we will characterize the intermittency by measuring the deviation of the circulation moments of order $p$ given by $\langle|\Gamma|^p\rangle$ from the self-similar K41 scaling.
+The TG and NF moments are shown in Fig.~\ref{fig:moments}, where we have plotted the circulation moments in extended self-similarity (ESS) using the third-order circulation moment $\langle|\Gamma|^3\rangle$. In this way, we define the scaling exponents $\lambda_p$ as  
+\begin{equation}
+  \langle|\Gamma|^p\rangle\sim \left[\langle|\Gamma|^3\rangle\right]^{(\lambda_p/\lambda_3)p}
+\end{equation} 
+In order to compute the scaling exponents, we find the local slope of the moments in ESS, which is given by
+\begin{equation}
+  \left(\frac{\lambda_p}{\lambda_3}\right)(r) = \frac{\mathrm{d}\left[\log\langle|\Gamma|^p\rangle\right]}{\mathrm{d}\left[\log\langle|\Gamma|^3\rangle\right]}
+\end{equation}
+As the local-slope of pure power-law functions is flat, we look for flat regions where the loop sizes are $r>\ell$, and then average over the selected regions.  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
