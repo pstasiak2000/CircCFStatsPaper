@@ -27,4 +27,7 @@ sed -i -E 's/T=0/\\ensuremath{T=0}/g' "$FILE"
 # Convert TLambda or T_lambda -> \ensuremath{T_{\lambda}}
 sed -i -E 's/T[Ll]ambda/\\ensuremath{T_{\\lambda}}/g' "$FILE"
 
+# For some reason journaltitle for some references is added instead of journal? So just change that here...
+sed -i -E 's/journaltitle/journal/g' "$FILE"
+
 echo "All substitutions applied in-place for $FILE"
