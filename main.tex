@@ -114,7 +114,6 @@
              %  but any date may be explicitly specified
 
 \begin{abstract}
-	\blindtext[2]
 \end{abstract}
 
 %\keywords{Suggested keywords}%Use showkeys class option if keyword
@@ -127,11 +126,9 @@ The chaotic dynamics of turbulent fluids is a ubiquitous phenomenon dominating a
 Turbulence shapes the patterns and properties of fluids of all kinds, from ordinary viscous fluids in Navier-Stokes turbulence~\cite{pope2000} to electrically conducting fluids in magneto-hydrodynamics~\cite{canuto1998} and quantum fluids in quantum turbulence~\cite{barenghi2023,barenghi2023a}.
 Such systems are characterised by the existence of a wide range of length scales across which inviscid conserved quantities, such as energy, are transferred without any loss in the spirit of the cascade described by Richardson~\cite{richardson1922}.
 In 3D classical turbulence this process is a direct cascade where energy is transferred from large to small scale structures at a constant rate of energy with a well-known scaling law of Kolmogorov's phenomenological K41 theory~\cite{kolmogorov1941}.
-
-In quantum fluids such as $^4$He and Bose-Einstein condensates (BECs), turbulence manifests as a highly-knotted complex tangle of topological defects of quantized circulation known as quantum vortices~\cite{barenghi2023a}.  
 The dynamics of these filament structures can result in collisions known as vortex reconnections, altering the topology of the system and re-distributing energy between scales and fluid components~\cite{stasiak2024,stasiak2025}.
-The richness of turbulence in quantum fluids arises from the additional length scale $\ell$, seperating the dynamics at large scales where the flow is unaffected by small-scale vortex structures, and small scales where the flow is strongly dependent on them.
-At these large scales, the same cascade phenemenology of the K41 theory has been observed in quantum fluids~\cite{barenghi2014}, and the turbulent flows have been known to behave intermittently~\cite{barenghi2023a}.
+The richness of turbulence in quantum fluids arises from the additional length scale $\ell$, separating the dynamics at large scales where the flow is unaffected by small-scale vortex structures, and small scales where the flow is strongly dependent on them.
+At these large scales, the same cascade phenomenology of the K41 theory has been observed in quantum fluids~\cite{barenghi2014}, and the turbulent flows have been known to behave intermittently~\cite{barenghi2023a}.
 Velocity increments $\delta\v(\mathbf{r}) = \v(\x+\mathbf{r}) - \v(\x)$ and corresponding structure functions $S_p = \langle|\delta\v(\mathbf{r}^p|\rangle$ recover scaling exponents $S_p\sim r^{\zeta_p}$ in the inertial range with striking similarity to classical turbulence~\cite{maurer1998,rusaouen2017}.
 
 Recent work in classical turbulence~\cite{iyer2019} and quantum turbulence~\cite{muller2021,polanco2021,muller2022,muller2024} have demonstrated the success of velocity circulation $\Gamma$ given by
@@ -141,7 +138,6 @@ Recent work in classical turbulence~\cite{iyer2019} and quantum turbulence~\cite
 where $\mathcal{C}(r)$ denotes a closed loop enclosing an around area $\mathcal{A}(r)$, as an alternative to velocity increments for the analysis of intermittency.
 For higher order moments, high-Reynolds number simulations have demonstrated that circulation scaling exponents are well described by monofractal fits~\cite{iyer2019}, exhibiting a simpler statistical structure in the inertial range than the multi-fractal scaling of velocity increments.
 In fact, Gross-Pitaevskii (GP) simulations~\cite{muller2021,polanco2021} and finite-temperature grid turbulence in $^4$He~\cite{muller2022} display a scaling of circulation variance $\langle|\Gamma_r|^2\rangle\sim r^{8/3}$ within the inertial range, coinciding with classical turbulence~\cite{frisch1995}.
-
 
 \begin{figure*}
   \centering
@@ -154,7 +150,11 @@ In both (\emph{a}) and (\emph{b}) superfluid vortex lines are represented as gre
 \label{fig:snapshots}
 \end{figure*}
 
-In this Letter, we compute the velocity circulation statistics for steady-state counterflow turbulence in $^4$He and compare our findings with a purely superfluid Taylor-Green simulation. 
+In this Letter, we compute the velocity circulation statistics for steady-state counterflow turbulence in $^4$He and compare our findings with a purely superfluid Taylor-Green simulation.
+Counterflow turbulence differs significantly from mechanically generated turbulence in two key aspects.
+Firstly, the imposed counterflow velocity facilitates an energy injection mechanism by the Donnelly-Glaberson instability~\cite{glaberson1974,stasiak2024}.
+Secondly, steady-state counterflow turbulence is known to be strongly anisotropic, and has a tendency to develop large-scale quasi-two-dimensional structures~\cite{biferale2019,polanco2021} which can support an inverse cascade of energy~\cite{polanco2020}.
+To account for this anisotropy, we split our analysis of the counterflow state into the orientations parallel and perpendicular to the counterflow direction.
 
 
 \section{Method}
