@@ -6,7 +6,7 @@
 %Control: page (0) single
 %Control: year (1) truncated
 %Control: production of eprint (0) enabled
-\begin{thebibliography}{26}%
+\begin{thebibliography}{27}%
 \makeatletter
 \providecommand \@ifxundefined [1]{%
  \@ifx{#1\undefined}
@@ -118,6 +118,9 @@
 \bibitem [{\citenamefont {Baggaley}\ and\ \citenamefont {Barenghi}()}]{baggaley2012d}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~W.}\ \bibnamefont {Baggaley}}\ and\ \bibinfo {author} {\bibfnamefont {C.~F.}\ \bibnamefont {Barenghi}},\ }\bibfield  {title} {\bibinfo {title} {Tree {{Method}} for {{Quantum Vortex Dynamics}}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {J. Low Temp. Phys.}\ }\textbf {\bibinfo {volume} {166}},\ \bibinfo {pages} {3}}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Polanco}\ \emph {et~al.}(2021)\citenamefont {Polanco}, \citenamefont {M{\"u}ller},\ and\ \citenamefont {Krstulovic}}]{polanco2021a}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~I.}\ \bibnamefont {Polanco}}, \bibinfo {author} {\bibfnamefont {N.~P.}\ \bibnamefont {M{\"u}ller}},\ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Krstulovic}},\ }\bibfield  {title} {\bibinfo {title} {Circulation.jl: {{Tools}} for computing velocity circulation statistics from periodic {{3D Navier-Stokes}} and {{Gross-Pitaevskii}} fields},\ }\href@noop {} {\  (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
 \bibitem [{\citenamefont {L'vov}\ \emph {et~al.}()\citenamefont {L'vov}, \citenamefont {Nazarenko},\ and\ \citenamefont {Rudenko}}]{lvov2007}%
   \BibitemOpen
   \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.~S.}\ \bibnamefont {L'vov}}, \bibinfo {author} {\bibfnamefont {S.~V.}\ \bibnamefont {Nazarenko}},\ and\ \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont {Rudenko}},\ }\bibfield  {title} {\bibinfo {title} {Bottleneck crossover between classical and quantum superfluid turbulence},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {76}},\ \bibinfo {pages} {024520}}\BibitemShut {NoStop}%
